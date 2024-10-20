@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.title_index{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.39);
+    color: aliceblue;
+    margin-top: 25px;
+}
+.text_index{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: antiquewhite;
+}
+.main_produtos_content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;    
+}
+.main_produtos_content .card{
+    flex-basis: calc(25% - 15px);
+    flex-grow: 1;
+}
+.main_produtos_content .card img{
+    height: 250px;
+}
