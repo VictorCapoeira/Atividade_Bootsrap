@@ -35,3 +35,53 @@ body{
 .main_produtos_content .card img{
     height: 250px;
 }
+.main_sobre_content{
+    color: white;
+    margin: 20px 100px;
+    line-height: 1.5;
+}
+.sobre_contanto{
+    border: 1px solid white;
+    padding: 15px;
+    width: 40%;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+.mb-3 input{
+    width: 100%;
+}
+.mb-3 textarea{
+    width: 100%;
+    height: 250px;
+}
+.breadcrumb .active{
+    color: rgb(157, 158, 158);
+}
+.sobre_imgs{
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sobre_imgs .sobre_img{
+    flex-basis: calc(50% - 15px);
+    display: block;
+    height: 500px;
+}
+.carrinho{
+    padding: 0;
+    padding-right: 30px;
+}
+.carrinho img{
+    width: 30px;
+    height: 30px;
+}
+.hero{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
